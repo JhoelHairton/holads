@@ -46,7 +46,7 @@ const messages = [
   function handleResponse(isPositive) {
     if (isPositive) {
       // Redirigir a flower.html si selecciona "Sí 💖"
-      window.location.href = "../index1.html";
+      window.location.href = "index1.html";
     } else {
       // Mostrar un mensaje o realizar otra acción
       alert("Tómate tu tiempo, aquí estaré esperando 😊");
